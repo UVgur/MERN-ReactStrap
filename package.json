@@ -1,0 +1,30 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "ShoppingList",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "client-install": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Yuval",
+  "license": "IST",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.0",
+    "config": "^3.1.0",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.10",
+    "react-transition-group": "^4.0.1",
+    "reactstrap": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
