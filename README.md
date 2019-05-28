@@ -4,6 +4,8 @@
 indluceing the follow technologies:
 
 
+
+
 Front-End:
 React->Redux
 
@@ -11,6 +13,8 @@ Business-End:
 NodeJs->Express
 DB: MongoDB->Mongoose
 Style: Bootstrap->ReactStrap
+
+
 
 
 Useing the follow Dependencies:
@@ -33,6 +37,9 @@ redux, react-redux= global State
 react, react-dom, react-scripts= react Boundle
 redunx-thunk= connet to thunk
 (thunk=middleware for basic Redux logic, complex logic with store and async logic like ajax requests)
+
+
+
 
 
 
