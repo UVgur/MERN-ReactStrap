@@ -1,5 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://yuval:gur@cluster0-qgpzz.mongodb.net/test?retryWrites=true",
-    "jwtSecret": "myJwtSecret"
-
-}
