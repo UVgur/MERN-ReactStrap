@@ -3,6 +3,7 @@
  
 indluceing the follow technologies:
 
+
 Front-End: React->Redux
 Business-End: NodeJs->Express
 DB: MongoDB->Mongoose
