@@ -4,14 +4,19 @@
 indluceing the follow technologies:
 
 
-Front-End: React->Redux
-Business-End: NodeJs->Express
+Front-End:
+React->Redux
+
+Business-End:
+NodeJs->Express
 DB: MongoDB->Mongoose
 Style: Bootstrap->ReactStrap
 
 
 Useing the follow Dependencies:
+
 *server*:
+
 bcrypt= hashing
 bootstrap= style
 reactstrap= connect Style to View
@@ -22,6 +27,7 @@ react-transition-group= animation
 
 
 *client*:
+
 axios= improvment over Fetch
 redux, react-redux= global State
 react, react-dom, react-scripts= react Boundle
