@@ -9,6 +9,7 @@ Business-End: NodeJs->Express
 DB: MongoDB->Mongoose
 Style: Bootstrap->ReactStrap
 
+
 Useing the follow Dependencies:
 *server*:
 bcrypt= hashing
@@ -19,6 +20,7 @@ express= serverFW
 jsonwebtoken= auth
 react-transition-group= animation
 
+
 *client*:
 axios= improvment over Fetch
 redux, react-redux= global State
@@ -27,7 +29,9 @@ redunx-thunk= connet to thunk
 (thunk=middleware for basic Redux logic, complex logic with store and async logic like ajax requests)
 
 
+
 What This Do?
+
 
 this Full-Stack MERN application,
 View, ADD & Delete items from the "list", 
